@@ -2,7 +2,7 @@ package sorting;
 
 public class InsertionSortJava {
 
-  public static void main(String[] args) {
+  public static void main(String... args) {
     Integer[] x = {10, 20, 5, 30, 25, 0, 15};
     doInsertionSort(x);
   }
