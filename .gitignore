@@ -1,0 +1,5 @@
+# ignore intelliJ
+.idea/
+
+# ignore target
+target/
