@@ -1,13 +1,8 @@
 package sorting;
 
-public class InsertionSortJava {
+class InsertionSortJava {
 
-  public static void main(String... args) {
-    Integer[] x = {10, 20, 5, 30, 25, 0, 15};
-    doInsertionSort(x);
-  }
-
-  static Integer[] doInsertionSort(Integer[] input) {
+  int[] doInsertionSort(int[] input) {
     int temp;
     for (int i = 1; i < input.length; i++) {
       for (int j = i; j > 0; j--) {
